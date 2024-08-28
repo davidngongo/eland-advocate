@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "name": "David ng",
+    "img": "../public/assets/images/teamimage/davng.png",
+    "role": "Senior manager"
+  },
+  {
+    "id": "2",
+    "name": "David ng",
+    "img": "../public/assets/images/teamimage/davng.png",
+    "role": "Senior manager"
+  },
+  {
+    "id": "3",
+    "img": "../public/assets/images/teamimage/davng.png",
+    "name": "Patient israel",
+    "role": "Senior manager"
+  },
+  {
+    "id": "4",
+    "img": "../public/assets/images/teamimage/davng.png",
+    "name": "Beni ben",
+    "role": "Senior manager"
+  },
+  {
+    "id": "5",
+    "img": "../public/assets/images/teamimage/davng.png",
+    "name": "Esther zack",
+    "role": "Senior manager"
+  }
+]

@@ -1,0 +1,111 @@
+[
+  {
+    "id": "1",
+    "title": "Banking and finance",
+    "description": "Eland advocates’ banking practice team is an accomplished one and has recently advised on complex and significant transactions as well as successfully guided Commercial banks in their set up from principals. No sector has been immune to the impact of the global pandemic crisis. Both investment and retail banks have borne the brunt of the economic downturn.",
+    "link": "/baking-learn-more",
+    "image": "../public/assets/images/banking.jpg"
+  },
+  {
+    "id": "2",
+    "title": "Financial Institutions",
+    "description": "We offer in-depth expertise to clients in the Financial Institutions Sector. We possess capabilities to offer financial institutions and funds of every size and focus   a suite of sophisticated, proactive and thought-leading legal services. We advise commercial banks, investment banks, accounting firms, private equity funds, asset management companies, financial intermediaries, brokers and others who impact the financial markets on how to effectively plan, deploy, advance and defend their interests in both transactional and adversarial matters.",
+    "image": "../public/assets/images/financialinst.jpg"
+  },
+  {
+    "id": "4",
+    "title": "Company law/Commercial Contracts",
+    "description": "Eland Advocates’ corporate governance team guides leading national and multinationals through every stage of the company life cycle and their sector regulatory requirements. Let us take care of the legal paperwork while you get on with business. No case is too big, too complex or too daunting. We tackle multifaceted, intricate and high value cases. Our team will tailor your legal documentation to specifically meet your needs and objectives.",
+    "image": "../public/assets/images/companylaw.jpg"
+  },
+  {
+    "id": "5",
+    "title": "Dev Agencies, Inter-G & Not for profit O",
+    "description": "Eland Advocates’ development agencies, inter-governmental and not profitable organizations team is probably the only specialist kind of its nature in our jurisdiction – we have simply distinguished ourselves in this line of legal practice and have results to show for it.Successfully operating in any market, whether international or domestic, requires an understanding of that region’s unique socioeconomic and geopolitical environments and stakeholders — an especially difficult task in markets where stability and transparency are often lacking.",
+    "image": "../public/assets/images/Devagencie.jpg"
+  },
+  {
+    "id": "6",
+    "title": "Employment & Labour Law",
+    "description": "Eland Advocates is a clear leader in employment and labour law matters having consistently and successfully advised some of the largest private-sector employers on a variety of concerns in this area of the law.The integration of the East African labour market presents many complex structural and frictional constraints that call for harmonization of Labour policies, laws and pro- grammes. ",
+    "image": "../public/assets/images/employandlab.jpg"
+  },
+  {
+    "id": "7",
+    "title": "Immigration",
+    "description": "The free movement of people, goods, services and capital across the East African Community and indeed the world at large present varying challenges in handling immigrations issues. Immigration law is very broad and complex affecting both individuals and corporations. We understand the regional immigration legal framework and have over the years with constant communication lines built a good rapport with the different agencies that handle immigration matters in the region which our clients can benefit from.",
+    "image": "../public/assets/images/immigration.jpg"
+  },
+  {
+    "id": "8",
+    "title": "Insurance",
+    "description": "Expertise covers restructuring of regulatory capital, strategic reinsurance, longevity transactions, M&A and regulatory matters.Fully integrated with the firm’s Financial Institutions department, the team advises financial institution clients on all insurance aspects of property, project and real estate financings and transactions. The team also advises our financial institution clients in respect of their own trade credit and political risk insurance policies.",
+    "image": "../public/assets/images/insurance.jpg"
+  },
+  {
+    "id": "9",
+    "title": "Intellectual property",
+    "description": "Intellectual property protection is a complex duty with aspects that may fall under the purview of various disciplines and sectors ranging from healthcare, financial, telecoms and IT. We help you protect what belongs to you whether it is trademarks, patents, trade secrets or even just employee know-how. We are also dedicated to protecting foreign intellectual property within the region. Our clients rely on us to give them the best possible representation in their IP cases and that’s what we will deliver.",
+    "image": "../public/assets/images/intellectualpro.jpg"
+  },
+  {
+    "id": "10",
+    "title": "Investment Management",
+    "description": "Expanding regulation, fluctuating asset values and credit markets are just beginning a return to life. These are the realities of the investment fund environment today. Eland Advocates knows the terrain. We have a multidisciplinary team of lawyers and policy professionals who have helped funds stay in front of regulatory and legislative developments, seize opportunities in market dislocations and obtain flexible financing solutions. In turn, our clients can better focus on executing upon their business strategy and objectives.",
+    "image": "../public/assets/images/investmentmangt.jpg"
+  },
+  {
+    "id": "11",
+    "title": "Litigation & Arbitration",
+    "description": "Disputes shouldn’t be an inevitable occurrence with people, organizations and businesses, but when they do happen, our army of lawyers is ready. No case is too big, too complex, too daunting. We tackle multifaceted, intricate and high value cases. Our clients rely on us to try these cases because of our ability to meticulously understand the issues and because we are able to communicate complicated concepts and present persuasive and compelling arguments. At all stages in the process we try to involve the client.",
+    "image": "../public/assets/images/litigationandarb.jpg"
+  },
+  {
+    "id": "12",
+    "title": "Energy & Resources",
+    "description": "The Great Oil & Gas Paradigm Shift —What Does It Mean?“East Africa used to be regarded as an oil industry backwater, a poorer relative to the continent’s resource- rich north and west,” the Financial Times observed. This has quickly changed in the past few years. Now East Africa has been dubbed the next Oil frontier and we at Eland Advocates are helping our clients keep abreast with the shift in paradigm in the region’s Oil & Gas industry.",
+    "image": "../public/assets/images/energyandresource.jpg"
+  },
+  {
+    "id": "13",
+    "title": "Private Equity",
+    "description": "Eland Advocates’ structure and nature of its private equity practice is a reflection of the globalization of private equity houses.The team’s experience includes advising on transactions across the major jurisdictions of East Africa. Private equity houses, investors, funds, banks and financial institutions rely on Eland Advocates’ market leading experts. Our private equity lawyers advise clients at all stages, from establishing the fund and making investments,  to ongoing portfolio assistance including restructuring advice, to exiting from those investments.",
+    "image": "../public/assets/images/privateequity.jpg"
+  },
+  {
+    "id": "14",
+    "title": "Manufacturing",
+    "description": "Legal representation of the manufacturing industry requires innovation, agility, insight, and pervasiveness – all hinging on the thorough understanding of our clients’ business models and the industries within which they operate. Clients in the manufacturing industry grapple with a myriad of business and legal issues on a daily basis, including brand  protection,  technical,  design and intellectual property rights, product life cycles, warranties, research and development and revenue streams from maintenance.",
+    "image": "../public/assets/images/manufacturing.jpg"
+  },
+  {
+    "id": "15",
+    "title": "Project Finance & Transaction Advisory",
+    "description": "The scope of our Project Finance team is unparalleled within the marketplace. We have the unique ability to originate, structure and execute project finance deals across different markets in the region and in different sectors of  the  economy.  Our  project  finance   team  is exclusively dedicated and offers market-leading experience advising on legal matters related to project structuring, development, financing, government regulation, construction and other contract issues across every sector, including:",
+    "image": "../public/assets/images/projectfinanceandtrans.jpg"
+  },
+  {
+    "id": "16",
+    "title": "Real Estate & Conveyance",
+    "description": "The East African property market is booming and Real estate transactions require in depth market knowledge, competency and commitment – all this comes naturally to us.With the skill and experience to advise you on the complete range of real estate-related matters across the continent, Eland Advocates lawyers have been recognized for their real estate knowledge. ",
+    "image": "../public/assets/images/realestateandconv.jpg"
+  },
+  {
+    "id": "17",
+    "title": "Restructuring and Insolvency",
+    "description": "Insolvency litigation can be highly complex and contentious. Our unique approach to Restructuring and Insolvency offers a balanced mixture of transactional strength and litigation experience. We have extensive experience in advising insolvency practitioners, financial institutions, creditors, public sector bodies, companies and directors in connection with a wide range of insolvency related work. ",
+    "image": "../public/assets/images/Restructuringandinsolv.jpg"
+  },
+  {
+    "id": "18",
+    "title": "Risk Management",
+    "description": "Insolvency litigation can be highly complex and contentious. Our unique approach to Restructuring and Insolvency offers a balanced mixture of transactional strength and litigation experience. We have extensive experience in advising insolvency practitioners, financial institutions, creditors, public sector bodies, companies and directors in connection with a wide range of insolvency related work. ",
+    "image": "../public/assets/images/Risknanagement.jpg"
+  },
+  {
+    "id": "19",
+    "title": "Trusts, Estate Administration, Charities & Private Clients",
+    "description": "The Eland Advocates team combines a strong and broadly based commercial trusts practice with equally expert trusts, estate administration, charities and private client practices.The team often works on matters originating from the firm’s pre-eminent corporate department, usually where a trust is part of the structure of a transaction   or undertaking or a body of trustees is party to the transaction.",
+    "image": "../public/assets/images/Trust.jpg"
+  }
+]
