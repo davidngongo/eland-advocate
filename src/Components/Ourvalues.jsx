@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import elandlogo from "../assets/images/elandlogo.png";
-import valueData from "../value.json"; // Renamed to avoid conflict
+import valueData from "../Value.json"; // Renamed to avoid conflict
 
 const Ourvalues = () => {
   const [isExpanded, setIsExpanded] = useState(false);
