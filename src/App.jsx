@@ -56,7 +56,7 @@ const router = createBrowserRouter(
       <Route path="/restructuringinvol" element={<Restructuring />} />
       <Route path="/realestate" element={<Realestateandconv />} />
       <Route path="/riskmanagement" element={<Riskmana />} />
-      <Route path="/trust" element={<Trustandestate />} />
+      {/* <Route path="/trust" element={<Trustandestate />} /> */}
       <Route path="/intelpro" element={<Intelpro />} />
       <Route path="*" element={<Notfoundpage />} />
     </Route>
