@@ -27,7 +27,7 @@ import Projectfinaandtrans from "./Pages/Learnmorepage/Projectfinaandtrans";
 import Realestateandconv from "./Pages/Learnmorepage/Realestateandconv";
 import Restructuring from "./Pages/Learnmorepage/Restructuring";
 import Riskmana from "./Pages/Learnmorepage/Riskmana";
-import Trustandestate from "./Pages/Learnmorepage/Trustandestate";
+import Trust from "./Pages/Learnmorepage/Trust";
 import Intelpro from "./Pages/Learnmorepage/Intelpro";
 import Notfoundpage from "./Pages/Notfoundpage";
 
@@ -38,6 +38,7 @@ const router = createBrowserRouter(
       <Route path="/Praticearea" element={<Pratice />} />
       <Route path="/about" element={<Aboutus />} />
       <Route path="/team" element={<Ourteam />} />
+      <Route path="/trust" element={<Trust />} />
       <Route path="/contactus" element={<Contactus2 />} />
       <Route path="/baking" element={<Baking />} />
       <Route path="/finacialinst" element={<Financialinsti />} />

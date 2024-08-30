@@ -1,6 +1,6 @@
 import React from "react";
 
-const trustandestate = () => {
+const Trust = () => {
   return (
     <section id="about-us" className="py-20 mb-4 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -22,4 +22,4 @@ const trustandestate = () => {
   );
 };
 
-export default trustandestate;
+export default Trust;
