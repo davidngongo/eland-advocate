@@ -6,7 +6,7 @@ const Financialinsti = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-8">
           <h1 className="text-2xl text-black  text-maroon sm:text-2xl md:text-3xl">
-            Financial institution
+            FINANCIAL INSTITUTIONS
           </h1>
         </div>
         <div className="flex flex-col md:flex-row items-center md:items-start justify-between">
