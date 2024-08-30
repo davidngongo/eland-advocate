@@ -5,7 +5,7 @@ import Praticearea from "./Praticearea";
 import Vieuxallservice from "./Vieuxallservice";
 const Praticeareas = ({ isHome = false }) => {
   // const recentservice = Service.slice(0, 6);
-  const Praticeareas = isHome ? Service.slice(0, 6) : Service;
+  const Praticeareas = isHome ? Service.slice(0, 9) : Service;
   return (
     <>
       <section className="bg-white">
