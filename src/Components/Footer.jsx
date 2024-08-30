@@ -1,5 +1,6 @@
 import React from "react";
 import elandlogo from "../assets/images/elandlogo.png";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -27,60 +28,60 @@ const Footer = () => {
             <h4 className="text-xl font-bold">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <a
-                  href="/about"
-                  className="hover:underline hover:text-red-900 hover:text-2xl"
+                <NavLink
+                  to="/about"
+                  className="hover:underline hover:text-Maroon hover:text-1xl hover:ml-3"
                 >
                   About Us
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a
-                  href="/services"
-                  className="hover:underline hover:text-red-900 hover:text-2xl"
+                <NavLink
+                  to="/team"
+                  className="hover:underline hover:text-Maroon hover:text-1xl hover:ml-3"
                 >
-                  Services
-                </a>
+                  OUR TEAM
+                </NavLink>
               </li>
               <li>
-                <a
-                  href="/contact"
-                  className="hover:underline hover:text-red-900 hover:text-2xl"
+                <NavLink
+                  to="/contactUS"
+                  className="hover:underline hover:text-Maroon hover:text-1xl hover:ml-3"
                 >
-                  Contact Us
-                </a>
+                  CONTACT US
+                </NavLink>
               </li>
               <li>
-                <a
-                  href="/contact"
-                  className="hover:underline hover:text-red-900 hover:text-2xl"
+                <NavLink
+                  to="/Praticearea"
+                  className="hover:underline hover:text-Maroon hover:text-1xl hover:ml-3"
                 >
                   PRATICEAREAS
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a
-                  href="/contact"
-                  className="hover:underline hover:text-red-900 hover:text-2xl"
+                <NavLink
+                  to="/contactus"
+                  className="hover:underline hover:text-Maroon hover:text-1xl hover:ml-3"
                 >
                   OUR VALUE
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a
-                  href="/contact"
-                  className="hover:underline hover:text-red-900 hover:text-2xl"
+                <NavLink
+                  href="/makeappointement"
+                  className="hover:underline hover:text-Maroon hover:text-1xl hover:ml-3"
                 >
                   MAKE APPOINTMENT
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a
+                <NavLink
                   href="/privacy"
-                  className="hover:underline hover:text-red-900 hover:text-2xl"
+                  className="hover:underline hover:text-Maroon hover:text-1xl  hover:ml-3"
                 >
                   Privacy Policy
-                </a>
+                </NavLink>
               </li>
             </ul>
           </div>

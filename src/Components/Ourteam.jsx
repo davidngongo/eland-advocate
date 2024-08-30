@@ -3,9 +3,12 @@ import teamm from "../Teamm.json";
 
 const Ourteam = () => {
   return (
-    <section className="bg-white border-1 border-black mt-10 mb-10 py-20 ">
+    <section
+      id="team"
+      className="bg-white border-1 border-black mt-10 mb-10 py-20 "
+    >
       <div className="container  mx-auto">
-        <h1 className="text-2xl text-red-900 text-center mb-8    sm:text-5xl md:text-6xl">
+        <h1 className="text-2xl text-Maroon text-center mb-8    sm:text-5xl md:text-6xl">
           Our Team
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-1">
@@ -20,7 +23,7 @@ const Ourteam = () => {
                 src={Teamm.img}
                 alt={Teamm.role}
               />
-              <h2 className="text-xl text-red-900 mt-4 font-semibold">
+              <h2 className="text-xl text-Maroon mt-4 font-semibold">
                 {Teamm.name}
               </h2>
               <p className="text-bold text-xl">{Teamm.role}</p>

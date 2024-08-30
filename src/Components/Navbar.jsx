@@ -1,30 +1,36 @@
 import React, { useState } from "react";
 import elandlogo from "../assets/images/elandlogo.png";
+import { NavLink } from "react-router-dom";
+// import { HashLink } from "react-router-hash-link";
 
 const Navbar = () => {
+  const Linkclass = ({ isActive }) =>
+    isActive
+      ? "text-white bg-Maroon hover:bg-black hover:text-white rounded-md px-3 py-2"
+      : "text-maroon hover:bg-Maroon hover:text-white rounded-md px-3 py-2";
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed bg-white  w-full border-b border-red-800">
+    <nav className="fixed bg-white z-20 w-full border-b border-red-800">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-20 items-center justify-between">
-          <div className="flex flex-1 items-center justify-center md:items-stretch md:justify-start">
-            <a
+          <div className="flex flex-1 items-center justify-center  md:items-stretch md:justify-start">
+            <NavLink
               className="flex flex-shrink-0 items-center mr-4"
-              href="/index.html"
+              to="/index"
             >
-              <img className="h-10 w-auto" src={elandlogo} alt="React Jobs" />
+              <img className="h-10 w-auto" src={elandlogo} alt="Eland logo" />
               <span className="hidden md:block text-white text-2xl font-bold ml-2">
                 Eland Advocate
               </span>
-            </a>
+            </NavLink>
           </div>
 
           {/* Button to open/close the menu on small screens */}
           <div className="flex md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="inline-flex items-center justify-center p-2 text-white bg-black rounded-md hover:bg-red-800 focus:outline-none"
+              className="inline-flex items-center justify-center p-2 text-white bg-black rounded-md hover:Maroon focus:outline-none"
             >
               <span className="sr-only">Open main menu</span>
               <svg
@@ -45,37 +51,25 @@ const Navbar = () => {
           </div>
 
           {/* Navbar links for large screens */}
-          <div className="hidden md:flex md:space-x-2">
-            <a
-              href="/index.html"
-              className="text-white bg-black hover:bg-red-800 hover:text-white rounded-md px-3 py-2"
-            >
+          <div className="hidden md:flex  md:space-x-2">
+            <NavLink to="/" className={Linkclass}>
               Home
-            </a>
-            <a
-              href="#about"
-              className="text-maroon hover:bg-red-800 hover:text-white rounded-md px-3 py-2"
-            >
+            </NavLink>
+            {/* <HashLink smooth to="/about#about-us" className={Linkclass}>
               ABOUT US
-            </a>
-            <a
-              href="/add-job.html"
-              className="text-maroon hover:bg-red-800 hover:text-white rounded-md px-3 py-2"
-            >
+            </HashLink> */}
+            <NavLink to="/about" className={Linkclass}>
+              ABOUT US
+            </NavLink>
+            <NavLink to="/Praticearea" className={Linkclass}>
               PRACTICAL AREAS
-            </a>
-            <a
-              href="/add-job.html"
-              className="text-maroon hover:bg-red-800 hover:text-white rounded-md px-3 py-2"
-            >
+            </NavLink>
+            <NavLink smooth to="/team" className={Linkclass}>
               OUR TEAM
-            </a>
-            <a
-              href="/add-job.html"
-              className="text-maroon hover:bg-red-800 hover:text-white rounded-md px-3 py-2"
-            >
+            </NavLink>
+            <NavLink to="/contactus" className={Linkclass}>
               CONTACT US
-            </a>
+            </NavLink>
           </div>
         </div>
       </div>
@@ -87,41 +81,41 @@ const Navbar = () => {
         } md:hidden`}
       >
         <div className="flex flex-col space-y-4 p-4 mt-20">
-          <a
-            href="/index.html"
-            className="text-white bg-black text-xl  hover:bg-red-800 hover:text-white rounded-md px-3 py-2"
+          <NavLink
+            to="/"
+            className={Linkclass}
             onClick={() => setIsOpen(false)}
           >
             Home
-          </a>
-          <a
-            href="/jobs.html"
-            className="text-maroon hover:bg-red-800 hover:text-white rounded-md px-3 py-2"
+          </NavLink>
+          <NavLink
+            to="/about"
+            className={Linkclass}
             onClick={() => setIsOpen(false)}
           >
             ABOUT US
-          </a>
-          <a
-            href="/add-job.html"
-            className="text-maroon hover:bg-red-800 hover:text-white rounded-md px-3 py-2"
+          </NavLink>
+          <NavLink
+            to="/Praticearea"
+            className={Linkclass}
             onClick={() => setIsOpen(false)}
           >
             PRACTICAL AREAS
-          </a>
-          <a
-            href="/add-job.html"
-            className="text-maroon hover:bg-red-800 hover:text-white rounded-md px-3 py-2"
+          </NavLink>
+          <NavLink
+            to="/team"
+            className={Linkclass}
             onClick={() => setIsOpen(false)}
           >
             OUR TEAM
-          </a>
-          <a
-            href="/add-job.html"
-            className="text-maroon hover:bg-red-800 hover:text-white rounded-md px-3 py-2"
+          </NavLink>
+          <NavLink
+            to="/contactus"
+            className={Linkclass}
             onClick={() => setIsOpen(false)}
           >
             CONTACT US
-          </a>
+          </NavLink>
         </div>
       </div>
     </nav>

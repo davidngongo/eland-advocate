@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 const Praticearea = ({ Service }) => {
   const [showfulldescription, setshowfulldescription] = useState(false);
@@ -27,12 +28,12 @@ const Praticearea = ({ Service }) => {
         {/* <div className="border border-gray-100 mb-5"></div> */}
 
         <div className=" flex-col lg:flex-row justify-between mb-4">
-          <a
-            href="job.html"
+          <NavLink
+            to={Service.link}
             className="h-[36px] bg-black hover:bg-maroon text-white px-4 py-2  text-center text-sm"
           >
             Read More
-          </a>
+          </NavLink>
         </div>
       </div>
     </div>

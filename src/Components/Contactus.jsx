@@ -2,7 +2,7 @@ import React from "react";
 
 const Contactus = () => {
   return (
-    <section className="bg-red-900 py-10  px-4">
+    <section className="bg-Maroon py-10  px-4">
       <div className="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-md">
         <h2 className="text-2xl font-bold text-center mb-6">Contact Us</h2>
         <form className="space-y-6">
@@ -47,7 +47,7 @@ const Contactus = () => {
               id="message"
               name="message"
               rows="4"
-              className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-red-900 focus:border-red-900 sm:text-sm"
+              className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-Maroon focus:border-Maroon sm:text-sm"
               required
             ></textarea>
           </div>

@@ -3,8 +3,8 @@
     "id": "1",
     "title": "Banking and finance",
     "description": "Eland advocates’ banking practice team is an accomplished one and has recently advised on complex and significant transactions as well as successfully guided Commercial banks in their set up from principals. No sector has been immune to the impact of the global pandemic crisis. Both investment and retail banks have borne the brunt of the economic downturn.",
-    "link": "/baking-learn-more",
-    "image": "../public/assets/images/banking.jpg"
+    "image": "../public/assets/images/banking.jpg",
+    "link": "/baking"
   },
   {
     "id": "2",
@@ -106,6 +106,6 @@
     "id": "19",
     "title": "Trusts, Estate Administration, Charities & Private Clients",
     "description": "The Eland Advocates team combines a strong and broadly based commercial trusts practice with equally expert trusts, estate administration, charities and private client practices.The team often works on matters originating from the firm’s pre-eminent corporate department, usually where a trust is part of the structure of a transaction   or undertaking or a body of trustees is party to the transaction.",
-    "image": "../public/assets/images/Trust.jpg"
+    "image": "../public/assets/images/Trusts.jpg"
   }
 ]

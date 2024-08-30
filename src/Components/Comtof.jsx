@@ -4,7 +4,7 @@ import davng from "../assets/images/davng.png";
 const Comtof = () => {
   return (
     <>
-      <div className="bg-red-900 w-full h-[60vh] flex items-center justify-center">
+      <div className="bg-red-900 w-full h-[60vh]  flex items-center justify-center">
         <img
           src={davng}
           alt="Your description"
@@ -23,9 +23,11 @@ const Comtof = () => {
         >
           Book an appoint today with us for anfortable journey
         </p> */}
+      </div>
+      <div>
         <a
           href=""
-          className="bg-red-900 text-white  text-1xl sm:text-1xl md:text-3xl lg:text-4xl font-bold  py-4 px-6 sm:py-3 sm:px-5 md:py-3 md:px-5 lg:py-8 lg:px-9 rounded-lg shadow-md hover:bg-black hover:text-1xl focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-75 transition duration-200 absolute z-50"
+          className="bg-Maroon text-white  text-1xl sm:text-1xl md:text-3xl lg:text-4xl font-bold  py-4 px-6 sm:py-3 sm:px-5 md:py-3 md:px-5 lg:py-8 lg:px-9 rounded-lg shadow-md hover:bg-black hover:text-1xl focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-75 transition duration-200 absolute z-[10] "
           style={{
             top: "50%",
             left: "20%",
