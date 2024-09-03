@@ -10,7 +10,7 @@
     "id": "2",
     "title": "Financial Institutions",
     "description": "We offer in-depth expertise to clients in the Financial Institutions Sector. We possess capabilities to offer financial institutions and funds of every size and focus   a suite of sophisticated, proactive and thought-leading legal services. We advise commercial banks, investment banks, accounting firms, private equity funds, asset management companies, financial intermediaries, brokers and others who impact the financial markets on how to effectively plan, deploy, advance and defend their interests in both transactional and adversarial matters.",
-    "image": "../public/assets/images/financialinst.jpg",
+    "image": "assets/images/financialinst.jpg",
     "link": "/finacialinst"
   },
   {
@@ -122,7 +122,7 @@
     "id": "19",
     "title": "Trusts, Estate Administration, Charities & Private Clients",
     "description": "The Eland Advocates team combines a strong and broadly based commercial trusts practice with equally expert trusts, estate administration, charities and private client practices.The team often works on matters originating from the firm’s pre-eminent corporate department, usually where a trust is part of the structure of a transaction   or undertaking or a body of trustees is party to the transaction.",
-    "image": "../public/assets/images/Trusts.jpg",
+    "image": "assets/images/Trusts.jpg",
     "link": "/trust"
   }
 ]
