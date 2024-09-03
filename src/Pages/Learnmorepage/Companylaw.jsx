@@ -11,34 +11,38 @@ const Companylaw = () => {
         </div>
         <div className="flex flex-col md:flex-row items-center md:items-start justify-between">
           <div className="md:w-1/2 p-4">
-            <p>
+            <p className="mb-4 text-xl text-black">
               Eland Advocates’ corporate governance team guides leading national
               and multinationals through every stage of the company life cycle
               and their sector regulatory requirements.
-              <br /> Let us take care of the legal paperwork while you get on
-              with business. No case is too big, too complex or too daunting. We
+            </p>
+
+            <p className="mb-4 text-xl text-black">
+              Let us take care of the legal paperwork while you get on with
+              business. No case is too big, too complex or too daunting. We
               tackle multifaceted, intricate and high value cases. Our team will
               tailor your legal documentation to specifically meet your needs
               and objectives.
             </p>
-            <p>
+
+            <p className="mb-4 text-xl text-black">
               Clients benefit from the firm’s expertise in advising boards,
               directors and share-holders on the evolution of their commercial
               environments and facilitating international expansion. Eland
               Advocates’ company law team offers advice on:
-              <ul className="text-Maroon text-xl ml:4">
-                <li>Corporate governance</li>
-                <li>Corporate responsibility</li>
-                <li>Company formation and administration</li>
-                <li>Directors’ liabilities and responsibilities</li>
-                <li>Stock exchange obligations</li>
-                <li>Shareholder rights</li>
-                <li>Commercial contracts</li>
-              </ul>
             </p>
+            <ul className="text-Maroon text-xl ml-4 list-disc ">
+              <li>Corporate governance</li>
+              <li>Corporate responsibility</li>
+              <li>Company formation and administration</li>
+              <li>Directors’ liabilities and responsibilities</li>
+              <li>Stock exchange obligations</li>
+              <li>Shareholder rights</li>
+              <li>Commercial contracts</li>
+            </ul>
           </div>
           <div className="md:w-1/2 p-4">
-            <p>
+            <p className="mb-4 text-xl text-black">
               Leading companies value Eland Advocates’ negotiation and drafting
               experience across the full range of national and international
               contracts. The team advises on one-off, transactional and support
@@ -46,11 +50,15 @@ const Companylaw = () => {
               licensing agreements, distribution and supply contracts and
               outsourcing agreements are also some of the key elements of the
               team’s expertise.
-              <br />
+            </p>
+
+            <p className="mb-4 text-xl text-black">
               Our commercial contracts practice provides well thought through
               solutions and advice on a multitude of contractual issues in a
               diverse range of businesses and sectors.
-              <br />
+            </p>
+
+            <p className="mb-4 text-xl text-black">
               Impala Legal has a wealth of experience and has advised some of
               the world’s and East Africa’s best-known brands and emerging
               companies alike in their corporate ventures. Our successful track

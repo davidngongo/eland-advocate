@@ -18,7 +18,7 @@ const Praticearea = ({ Service }) => {
             alt={Service.title}
             className="w-full h-48 object-cover "
           />
-          <h3 className="text-xl mt-3 text-black leading-relaxed font-bold">
+          <h3 className="text-xl mt-3 text-white leading-relaxed font-bold">
             {Service.title}
           </h3>
         </div>

@@ -15,14 +15,11 @@ const Navbar = () => {
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-20 items-center justify-between">
           <div className="flex flex-1 items-center justify-center  md:items-stretch md:justify-start">
-            <NavLink
-              className="flex flex-shrink-0 items-center mr-4"
-              to="/index"
-            >
-              <img className="h-10 w-auto" src={elandlogo} alt="Eland logo" />
-              <span className="hidden md:block text-white text-2xl font-bold ml-2">
+            <NavLink className="flex flex-shrink-0 items-center mr-4" to="/">
+              <img className="h-30 w-40" src={elandlogo} alt="Eland logo" />
+              {/* <span className="hidden md:block text-black text-2xl font-bold ml-2">
                 Eland Advocate
-              </span>
+              </span> */}
             </NavLink>
           </div>
 
@@ -30,23 +27,44 @@ const Navbar = () => {
           <div className="flex md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="inline-flex items-center justify-center p-2 text-white bg-black rounded-md hover:Maroon focus:outline-none"
+              className="inline-flex items-center justify-center p-2 text-white bg-black rounded-md hover:bg-Maroon focus:outline-none"
             >
-              <span className="sr-only">Open main menu</span>
-              <svg
-                className="block h-6 w-6"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M4 6h16M4 12h16M4 18h16"
-                />
-              </svg>
+              <span className="sr-only">
+                {isOpen ? "Close main menu" : "Open main menu"}
+              </span>
+              {isOpen ? (
+                // X (close) icon
+                <svg
+                  className="block h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              ) : (
+                // Hamburger menu icon
+                <svg
+                  className="block h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
+                </svg>
+              )}
             </button>
           </div>
 
@@ -59,16 +77,16 @@ const Navbar = () => {
               ABOUT US
             </HashLink> */}
             <NavLink to="/about" className={Linkclass}>
-              ABOUT US
+              About us
             </NavLink>
             <NavLink to="/Praticearea" className={Linkclass}>
-              PRACTICAL AREAS
+              PRACTICAL AREAS Practical areas
             </NavLink>
             <NavLink smooth to="/team" className={Linkclass}>
-              OUR TEAM
+              Our team
             </NavLink>
             <NavLink to="/contactus" className={Linkclass}>
-              CONTACT US
+              Contact us
             </NavLink>
           </div>
         </div>
@@ -76,11 +94,11 @@ const Navbar = () => {
 
       {/* Overlay and menu for small devices */}
       <div
-        className={`fixed inset-0 bg-gray-800 bg-opacity-75 z-40 transition-transform transform ${
+        className={`fixed inset-0 bg-black mt-20 h-[100%] w-[100%] bg-opacity-100 z-40 transition-transform transform ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         } md:hidden`}
       >
-        <div className="flex flex-col space-y-4 p-4 mt-20">
+        <div className="flex md:w-1/2 w-70 h-70 text-white flex-col space-y-4 p-4 mt-20">
           <NavLink
             to="/"
             className={Linkclass}
@@ -93,28 +111,28 @@ const Navbar = () => {
             className={Linkclass}
             onClick={() => setIsOpen(false)}
           >
-            ABOUT US
+            About us
           </NavLink>
           <NavLink
             to="/Praticearea"
             className={Linkclass}
             onClick={() => setIsOpen(false)}
           >
-            PRACTICAL AREAS
+            AREAS Practical areas
           </NavLink>
           <NavLink
             to="/team"
             className={Linkclass}
             onClick={() => setIsOpen(false)}
           >
-            OUR TEAM
+            Our team
           </NavLink>
           <NavLink
             to="/contactus"
             className={Linkclass}
             onClick={() => setIsOpen(false)}
           >
-            CONTACT US
+            Contact us
           </NavLink>
         </div>
       </div>

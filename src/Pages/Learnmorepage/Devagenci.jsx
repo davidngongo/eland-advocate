@@ -12,35 +12,42 @@ const Devagenci = () => {
         </div>
         <div className="flex flex-col md:flex-row items-center md:items-start justify-between">
           <div className="md:w-1/2 p-4">
-            <p>
+            <p className="text-black text-xl mb-4">
               Eland Advocates’ development agencies, inter-governmental and
               not-or-profit organizations team is probably the only specialist
               kind of its nature in our jurisdiction – we have simply
               distinguished ourselves in this line of legal practice and have
-              results to show for it. <br />
+              results to show for it.
+            </p>
+            <p className="text-black text-xl mb-4">
               Successfully operating in any market, whether international or
               domestic, requires an understanding of that region’s unique
-              socioeconomic and geopolitical environments and stakeholders — an
+              socioeconomic and geopolitical environments and stakeholders an
               especially difficult task in markets where stability and
               transparency are often lacking.
-              <br />
+            </p>
+            <p className="text-black text-xl mb-4">
               Developing markets where the worlds of business, politics and
               ethnic diversity overlap provides the additional challenge of
               navigating the relationships among the individuals, organizations
-              and issues that can impact a business. <br />
+              and issues that can impact a business.
+            </p>
+            <p className="text-black text-xl mb-4">
               Organizations have taken on an increasingly important and
               influential stakeholder role in many of these developing markets
               and can have a profound impact on business operations.
             </p>
           </div>
           <div className="md:w-1/2 p-4">
-            <p>
+            <p className="text-black text-xl mb-4">
               At Impala Legal, our professionals can provide knowledge and
               analysis of these challenging environments and can help entities
               develop strategies to work with key stakeholders to best
               understand the impact of an entity’s operations and the area where
               it operates.
-              <br /> In addition to our in-house specialists, we maintain good
+            </p>
+            <p className="text-black text-xl mb-4">
+              In addition to our in-house specialists, we maintain good
               relations with a number of well-positioned people with hands-on
               experience in almost all departments where our clients seek to
               transact. Our network provides extensive knowledge, facility and

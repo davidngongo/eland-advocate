@@ -11,35 +11,39 @@ const Immingration = () => {
         </div>
         <div className="flex flex-col md:flex-row items-center md:items-start justify-between">
           <div className="md:w-1/2 p-4">
-            <p className="">
+            <p className="text-xl text-black mb-4">
               The free movement of people, goods, services and capital across
               the East African Community and indeed the world at large present
               varying challenges in handling immigrations issues. Immigration
               law is very broad and complex affecting both individuals and
-              corporations. <br /> We understand the regional immigration legal
-              framework and have over the years with constant communication
-              lines built a good rapport with the different agencies that handle
-              immigration matters in the region which our clients can benefit
-              from. The immigration lawyers and professional staff who make up
-              our team have extensive experience in handling issues related to
-              immigration in different markets across the region. We advise
-              individuals and corporations on a board range of immigration law
-              Specifically,
+              corporations.
+            </p>
+            <p className="text-xl text-black mb-4">
+              We understand the regional immigration legal framework and have
+              over the years with constant communication lines built a good
+              rapport with the different agencies that handle immigration
+              matters in the region which our clients can benefit from.
+            </p>
+            <p className="text-xl text-black mb-4">
+              The immigration lawyers and professional staff who make up our
+              team have extensive experience in handling issues related to
+              immigration in different markets across the region.
             </p>
           </div>
           <div className="md:w-1/2 p-4">
-            <p>
-              we provide the following assistance;
-              <ul className="text-Maroon text-xl ml:4">
-                <li>Permanent residency</li>
-                <li>Work permit visas</li>
-                <li>Dual citizenship applications</li>
-                <li>Dependant pass applications</li>
-                <li>Student Visas</li>
-                <li>The changing from one visa classification </li>
-                <li>Immigration and internal adoptions</li>
-              </ul>
+            <p className="text-xl text-black mb-4">
+              We advise individuals and corporations on a board range of
+              immigration law Specifically, we provide the following assistance
             </p>
+            <ul className="text-Maroon text-xl ml-4 list-disc">
+              <li>Permanent residency</li>
+              <li>Work permit visas</li>
+              <li>Dual citizenship applications</li>
+              <li>Dependant pass applications</li>
+              <li>Student Visas</li>
+              <li>The changing from one visa classification </li>
+              <li>Immigration and internal adoptions</li>
+            </ul>
           </div>
         </div>
       </div>

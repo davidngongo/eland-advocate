@@ -9,19 +9,21 @@ const Aboutus = () => {
             ABOUT US
           </h1>
         </div>
-        <div className="flex flex-col md:flex-row items-center md:items-start justify-between">
-          <div className="md:w-1/2 p-4">
-            <p className="text-xl text-black sm:text-2xl leading-relaxed">
+        <div className="flex flex-col md:flex-row  items-center md:items-start justify-between">
+          <div className="md:w-1/2 p-4 ">
+            <p className="text-xl text-black  sm:text-2xl leading-relaxed">
               Eland Advocates is a professional legal space with an unhindered
               focus on client needs. We believe that great teams and legal minds
               are tools for clients, so we have built our practice around being
               on the client’s agenda. Our business, in short, is the
-              effectiveness of our clients. <br></br>Eland Advocates provides
-              the highest quality legal advice and representation to its
-              clients, which is why our ambitions stand up to our reputation.
-              Eland Advocates enjoys top-tier positions in each of its core
-              practice areas; the results we achieve set us apart, making us a
-              model for the modern practice of law.
+              effectiveness of our clients.
+            </p>
+            <p className="text-xl text-black mt-5 sm:text-2xl leading-relaxed">
+              Eland Advocates provides the highest quality legal advice and
+              representation to its clients, which is why our ambitions stand up
+              to our reputation. Eland Advocates enjoys top-tier positions in
+              each of its core practice areas; the results we achieve set us
+              apart, making us a model for the modern practice of law.
             </p>
           </div>
           <div className="md:w-1/2 p-4">
