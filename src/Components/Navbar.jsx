@@ -80,7 +80,7 @@ const Navbar = () => {
               About us
             </NavLink>
             <NavLink to="/Praticearea" className={Linkclass}>
-              PRACTICAL AREAS Practical areas
+              Practical areas
             </NavLink>
             <NavLink smooth to="/team" className={Linkclass}>
               Our team
