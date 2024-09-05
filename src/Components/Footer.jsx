@@ -118,7 +118,7 @@ const Footer = () => {
                 </a>
               </div>
               <div className="ml-4">
-                <p ClassName=""> info@elandadvocates</p>
+                <p className=""> info@elandadvocates</p>
               </div>
             </div>
           </div>

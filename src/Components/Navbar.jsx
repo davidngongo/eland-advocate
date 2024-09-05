@@ -17,9 +17,6 @@ const Navbar = () => {
           <div className="flex flex-1 items-center justify-center  md:items-stretch md:justify-start">
             <NavLink className="flex flex-shrink-0 items-center mr-4" to="/">
               <img className="h-30 w-40" src={elandlogo} alt="Eland logo" />
-              {/* <span className="hidden md:block text-black text-2xl font-bold ml-2">
-                Eland Advocate
-              </span> */}
             </NavLink>
           </div>
 
@@ -82,7 +79,7 @@ const Navbar = () => {
             <NavLink to="/Praticearea" className={Linkclass}>
               Practical areas
             </NavLink>
-            <NavLink smooth to="/team" className={Linkclass}>
+            <NavLink to="/team" className={Linkclass}>
               Our team
             </NavLink>
             <NavLink to="/contactus" className={Linkclass}>
