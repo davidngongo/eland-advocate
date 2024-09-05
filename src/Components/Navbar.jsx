@@ -118,7 +118,7 @@ const Navbar = () => {
             className={Linkclass}
             onClick={() => setIsOpen(false)}
           >
-            AREAS Practical areas
+            Practical areas
           </NavLink>
           <NavLink
             to="/team"
