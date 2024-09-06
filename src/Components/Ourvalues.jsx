@@ -23,10 +23,10 @@ const Ourvalues = () => {
           honest, and always professional.
           <br />
           It is impossible to be those things when you are out of touch with
-          your context. This is why our values
-          <br />
-          anchor us on principles that are simple yet reinforce the idea that
-          the client is the job we are required to do.
+          your context. <br />
+          This is why our values anchor us on principles that
+          <br /> are simple yet reinforce the idea that the client is the job we
+          are required to do.
           <br /> We exist to be brilliant for you.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
