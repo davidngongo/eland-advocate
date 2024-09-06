@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import davng from "../assets/images/davng.png";
 
+import emailjs from "@emailjs/browser";
+
 const Comtof = () => {
   const [isOpen, setisOpen] = useState(false);
 
@@ -19,6 +21,51 @@ const Comtof = () => {
       document.body.style.overflow = "auto";
     };
   }, [isOpen]);
+
+  // for submiting the form to the emailjs
+
+  // const of value in in the form
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [date, setDate] = useState("");
+
+  // function to handle now the process
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    // the emailjs service Id, template id, and public key
+
+    const serviceid = "service_5lvmgbj";
+    const templateid = "template_1yq8c7e";
+    const publickey = "T_Vdra0ouyrO7-ugD";
+
+    // create a new object that contains dynamci template params
+
+    const templateParams = {
+      from_name: name,
+      from_email: email,
+      to_name: " check Out this!!!  Appointment",
+      message: message,
+      date: date,
+    };
+
+    // send the email using emailjs
+
+    emailjs
+      .send(serviceid, templateid, templateParams, publickey)
+      .then((response) => {
+        console.log("Email sent succefully", response);
+        setName("");
+        setEmail("");
+        setMessage("");
+        setDate("");
+      })
+      .catch((error) => {
+        console.log("Error while sending email:", error);
+      });
+  };
 
   return (
     <>
@@ -62,19 +109,38 @@ const Comtof = () => {
               <h2 className="text-lg font-bold mb-4">
                 Make An Appointment With Us
               </h2>
-              <form>
+              <form onSubmit={handleSubmit}>
                 <div className="mb-4">
-                  <label className="block text-sm font-medium">Name:</label>
+                  <label className="block text-sm font-medium">Name </label>
                   <input
                     type="text"
-                    className="border border-gray-300 p-2 rounded w-full"
+                    id="Name"
+                    name="name"
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
+                    className="border border-black p-2 rounded w-full"
                   />
                 </div>
                 <div className="mb-4">
-                  <label className="block text-sm font-medium">Email:</label>
+                  <label className="block text-sm font-medium">Email </label>
                   <input
                     type="email"
-                    className="border border-gray-300 p-2 rounded w-full"
+                    id="email"
+                    name="email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    className="border border-black p-2 rounded w-full"
+                  />
+                </div>
+                <div className="mb-4">
+                  <label className="block text-sm font-medium">Subject </label>
+                  <input
+                    type="text"
+                    id="message"
+                    name="message"
+                    value={message}
+                    onChange={(e) => setMessage(e.target.value)}
+                    className="border border-black p-2 rounded w-full"
                   />
                 </div>
                 <div className="mb-4">
@@ -83,6 +149,10 @@ const Comtof = () => {
                   </label>
                   <input
                     type="date"
+                    id="date"
+                    name="date"
+                    value={date}
+                    onChange={(e) => setDate(e.target.value)}
                     className="border border-gray-300 p-2 rounded w-full"
                   />
                 </div>

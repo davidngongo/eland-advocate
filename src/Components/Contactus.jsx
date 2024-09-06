@@ -16,7 +16,7 @@ const Contactus = () => {
 
     const serviceid = "service_5lvmgbj";
     const templateid = "template_4ye3teh";
-    const publickey = "0yikcLdWiKyfbGH8T";
+    const publickey = "T_Vdra0ouyrO7-ugD";
 
     // create a new object that contains dynamci template params
 
@@ -46,7 +46,7 @@ const Contactus = () => {
     <section className="bg-white py-10 px-4 ">
       <div className="max-w-11xl mx-auto bg-white p-8  shadow-md">
         <form onSubmit={handleSubmit} className="space-y-3">
-          <div className=" border-2 border-Maroon">
+          <div className=" border-2 border-Maroongit">
             <h2 className="text-2xl font-bold p-3 text-start mb-1">
               Contact Us
             </h2>
