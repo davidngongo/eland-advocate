@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import elandlogo from "../assets/images/elandlogo.png";
+import elandlogo from "assets/images/elandlogo.png";
 import { NavLink } from "react-router-dom";
 // import { HashLink } from "react-router-hash-link";
 
