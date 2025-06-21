@@ -2,13 +2,13 @@
   {
     "id": "1",
     "name": "Sharifa Nalukwago",
-    "img": "images/teamimage/denis.jpg",
+    "img": "assets/images/teamimage/denis.jpg",
     "role": "Senior Associate"
   },
 
   {
     "id": "2",
-    "img": "images/teamimage/denis.jpg",
+    "img": "assets/images/teamimage/denis.jpg",
     "name": "Juliet Nalumansi",
     "role": "Administrator"
   },
