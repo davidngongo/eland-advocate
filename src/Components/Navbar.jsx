@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import elandlogo from "assets/images/elandlogo.png";
+import elandlogo from "../assets/images/elandlogo.png";
 import { NavLink } from "react-router-dom";
 // import { HashLink } from "react-router-hash-link";
 
@@ -16,7 +16,9 @@ const Navbar = () => {
         <div className="relative flex h-20 items-center justify-between">
           <div className="flex flex-1 items-center justify-center  md:items-stretch md:justify-start">
             <NavLink className="flex flex-shrink-0 items-center mr-4" to="/">
-              <img className="h-30 w-40" src={elandlogo} alt="Eland logo" />
+              {/* <img className="h-30 w-40" src={elandlogo} alt="Eland logo" /> */}
+              <img className="h-30 w-40" src="/assets/images/elandlogo.png" alt="Eland logo" />
+
             </NavLink>
           </div>
 
