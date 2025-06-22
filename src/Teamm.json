@@ -7,28 +7,23 @@
   },
 
   {
-    "id": "2",
-    "img": "assets/images/teamimage/denis.jpg",
-    "name": "Juliet Nalumansi",
-    "role": "Administrator"
-  },
-  {
-    "id": "3",
-    "img": "assets/images/teamimage/denis.jpg",
-    "name": "Christine Nalumansi",
-    "role": "Legal Assistant"
-  },
-  {
-    "id": "4",
-    "name": "Dennis Adim enap",
-    "img": "assets/images/teamimage/denis.jpg",
-    "role": "Advocate"
-  },
-
-  {
-    "id": "5",
+   "id": "2",
     "img": "assets/images/teamimage/pearl.jpg",
     "name": "Annabella Pearl Nabasa",
     "role": "Associate "
+  },
+  {
+    "id": "3",
+    "img": "assets/images/teamimage/sharifa.jpg",
+    "name": "Sharifah Nalukwago.",
+    "role": "Senior Associate"
+  },
+  {
+    "id": "4",
+    "img": "",
+    "name": "",
+    "role": ""
   }
+
+ 
 ]

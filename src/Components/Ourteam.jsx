@@ -18,7 +18,7 @@ const Ourteam = () => {
               teamm={Teamm}
               className="p-8 flex flex-col items-center   sm:justify-start sm:items-start text-black"
             >
-              <div className="width-[25%] height-[80vh] bg-red-900">
+              <div className="w-[200px] h-[250px] overflow-hidden rounded-md shadow-md bg-red-900">
                 <img
                   className="w-full h-full object-cover    "
                   src={Teamm.img}
