@@ -1,8 +1,8 @@
 import React from "react";
-import elandlogodd from "../assets/images/elandlogodd.png";
+import elandlogodd from "/assets/images/elandlogodd.jpg";
 import { NavLink } from "react-router-dom";
-import FB from "../assets/images/FB.png";
-import X from "../assets/images/X.png";
+import FB from "/assets/images/FB.jpg";
+import X from "/assets/images/X.jpg";
 
 const Footer = () => {
   return (
