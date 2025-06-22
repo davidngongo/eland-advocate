@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import davng from "../assets/images/davng.png";
+import davng from "../assets/images/davng.jpg";
 
 import emailjs from "@emailjs/browser";
 
