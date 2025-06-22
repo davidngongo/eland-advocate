@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import davng from "/assets/images/davng.jpg";
+// import davng from "/assets/images/davng.jpg";
 
 import emailjs from "@emailjs/browser";
 
@@ -71,7 +71,8 @@ const Comtof = () => {
     <>
       <div className="bg-Maroon w-full h-[60vh] flex items-center justify-center">
         <img
-          src={davng}
+          // src={davng}
+          src="/assets/davng.jpg"
           alt="Your description"
           className="w-full h-full object-cover object-top"
         />
