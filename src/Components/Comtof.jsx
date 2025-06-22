@@ -72,7 +72,7 @@ const Comtof = () => {
       <div className="bg-Maroon w-full h-[60vh] flex items-center justify-center">
         <img
           // src={davng}
-          src="/assets/davng.jpg"
+          src="/assets/davng.jpeg"
           alt="Your description"
           className="w-full h-full object-cover object-top"
         />
