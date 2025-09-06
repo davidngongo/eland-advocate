@@ -8,7 +8,7 @@ const Vieuxallservice = () => {
         to="/Praticearea"
         className="block bg-black text-white text-xl text-center py-4 px-6 rounded-xl  hover:bg-Maroon"
       >
-        VIEUX ALL PRACTICE AREAS
+        VIEW ALL PRACTICE AREAS
       </NavLink>
     </section>
   );
