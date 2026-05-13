@@ -14,9 +14,9 @@ const Contactus = () => {
 
     // the emailjs service Id, template id, and public key
 
-    const serviceid = "service_5lvmgbj";
-    const templateid = "template_4ye3teh";
-    const publickey = "T_Vdra0ouyrO7-ugD";
+  //  const serviceid = "service_5lvmgbj";
+  //  const templateid = "template_4ye3teh";
+  //  const publickey = "T_Vdra0ouyrO7-ugD";
 
     // create a new object that contains dynamci template params
 
